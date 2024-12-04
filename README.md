@@ -1,6 +1,6 @@
 ollama
 ============================
-null
+An Abstraction for querying an instance of [ollama]() in ESM using a single code path in all environments.
 
 Usage
 -----
