@@ -5,6 +5,14 @@ An Abstraction for querying an instance of [ollama]() in ESM using a single code
 Usage
 -----
 
+```js
+import { Ollama } from '@environment-safe/ollama';
+
+const llm = new Ollama({ model: '' });
+await llm.generate()
+
+```
+
 Testing
 -------
 
